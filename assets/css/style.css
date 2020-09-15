@@ -1,0 +1,31 @@
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  background: #cccccc; }
+
+.barra {
+  background: #c00a0a;
+  text-align: center;
+  box-shadow: 0px 3px 10px #303030; }
+  .barra img {
+    width: 5%; }
+  .barra ul {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto; }
+    .barra ul li {
+      padding: 2%;
+      list-style: none; }
+      .barra ul li:hover {
+        background: #9b0000; }
+      .barra ul li a {
+        color: #ffffff;
+        font-size: 18px;
+        text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
